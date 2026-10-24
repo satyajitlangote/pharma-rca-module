@@ -1,0 +1,67 @@
+DEVIATION / OOS INVESTIGATION — INITIAL REPORT
+Quality Unit — API Manufacturing Site
+
+Deviation Reference: DEV-2026-118
+OOS Reference: OOS-26-0031
+Title: Out-of-specification unknown impurity in Valsartan API final release testing
+Product: Valsartan API
+Batch: VLS-26018
+Manufacturing Stage: Final drying and milling
+Equipment or Area: Dryer DR-07 / Drying suite B
+Incident Date: 2026-09-19
+Reported By: Anika Sharma (QC Analyst)
+Severity Suggested: Major
+Detected By: QC analyst during release testing
+Quantity Affected: 6 drums (480 kg)
+Immediate Containment: Batch VLS-26018 placed on QA hold; remaining drums of the drying campaign (VLS-26017) also placed on hold pending investigation.
+
+1. SUMMARY
+During release testing of batch VLS-26018 the unknown impurity by HPLC was 0.14 %
+against the specification limit of NMT 0.10 % (specification SPEC-VAL-004, current
+version 6). The result was confirmed on re-test from a second container on
+2026-09-19 (OOS-26-0031 opened).
+
+2. LABORATORY DATA
+HPLC sequence SEQ-260919-A: blank, system suitability, samples.
+Retention time of the unknown peak 8.7 min; peak area 0.14 % against reporting
+threshold 0.05 %. Re-test from container 4 of drum 3: 0.13 %. Laboratory
+investigation found no preparation error; glassware and balances were within
+calibration (balance CAL-26-0655, due 2027-02-15).
+
+3. BATCH MANUFACTURING RECORD REVIEW (BMR-26018)
+The batch manufacturing record shows the drying step started on 2026-09-18 at
+06:20 with a recipe setpoint of 55 C and a maximum of 55 C per SOP-PR-014.
+Operator entries every 30 minutes record 55 C until 09:30. After 09:30 there are
+no operator entries until 12:00. At 12:00 the entry reads 68 C and the remark
+"alarm acknowledged, continuing".
+
+4. SCADA TREND REVIEW
+The SCADA trend export for dryer DR-07 on 2026-09-18 shows the product
+temperature rising from 55 C at 09:35 to a peak of 71.4 C at 10:40 and staying
+above 65 C until 12:02 (142 minutes above the 55 C limit). The steam valve
+position signal SV-12 oscillates between 82 % and 100 % during the excursion.
+
+5. EQUIPMENT AND MAINTENANCE RECORDS
+Equipment logbook entry 2026-09-16: "SV-12 positioner not responding, reported
+to maintenance." Maintenance work order WO-26-4471 for dryer DR-07 was opened
+2026-09-16 and closed 2026-09-21 with the action "positioner replaced". The
+preventive maintenance record for DR-07 shows the positioner was not included in
+the quarterly PM checklist.
+
+Temperature probe T-114 (dryer DR-07) calibration record CAL-26-0789 shows
+calibration on 2026-07-02, next due 2027-01-02, result pass — the probe was in
+calibration during the event.
+
+6. PERSONNEL
+Operator interview (2026-09-20, signed): "I saw the high temperature alarm and
+acknowledged it because the batch was already long; I did not know I had to stop
+drying." Training record shows operator R. Mehta trained on alarm response
+(TR-26-0142, 2026-05-04) and on SOP-PR-014 (2026-05-06).
+
+7. IMMEDIATE ACTIONS
+- Batch remains on QA hold.
+- Drying of subsequent batches suspended on dryer DR-07 until SV-12 is repaired
+  and verified (work order WO-26-4471 closed 2026-09-21).
+- 100 % re-test of affected drums planned after engineering assessment.
+
+Note: no change control for the DR-07 control philosophy has been raised yet.

@@ -1,0 +1,50 @@
+From: Maria Lopez <maria.lopez@pharma-example.com>
+To: QA Investigations <qa.investigations@pharma-example.com>
+Cc: Production Shift A <shift.a@pharma-example.com>; QC Packing <qc.packing@pharma-example.com>
+Subject: FOREIGN PARTICULATE FOUND DURING PACKING - Metformin HCl API batch MET-26-0457
+Date: Tue, 20 Oct 2026 08:15:00 +0000
+Message-ID: <20261020081500.MET-26-0457@pharma-example.com>
+
+Hello QA,
+
+During the final visual inspection of Metformin HCl API batch MET-26-0457 at the
+packing line this morning, our inspector found glass-like particles in 3 of the
+42 lined HDPE drums. The particles are 0.5-2 mm, clear, and were found on top of
+the powder in drums 7, 19 and 34.
+
+Deviation Reference: DEV-2026-131
+Product: Metformin HCl API
+Batch: MET-26-0457
+Manufacturing Stage: Final blending and drum loading
+Equipment or Area: Vibratory sieve S-201 and drum loader DL-03, Suite C
+Incident Date: 2026-10-20
+Reported By: Maria Lopez
+Severity Suggested: Critical
+Detected By: QC inspector during 100 % visual inspection at packing
+Quantity Affected: 3 drums of 42 (150 kg)
+Immediate Containment: All 42 drums of batch MET-26-0457 quarantined; Suite C
+packing line stopped; sieve S-201 and loader DL-03 taken out of use.
+
+What we have checked so far:
+
+- The batch record for MET-26-0457 shows the loading step was completed on
+  2026-10-19 at 22:40. All in-process checks before loading passed.
+- The equipment logbook for sieve S-201 has an entry from the previous shift:
+  "screen found with a 15 mm tear during post-use inspection 2026-10-19 06:00".
+- Maintenance work order WO-26-4512 shows the S-201 screen was replaced on
+  2026-10-19 at 16:30, before the loading of this batch. The PM record shows the
+  weekly screen integrity check for week 42 was marked "postponed".
+- Environmental monitoring for Suite C on 2026-10-19 was within limits.
+- Interview with the line operator (2026-10-20): "the loader was running with
+  the sight glass cracked, I saw nothing unusual".
+- The change control for the drum loader DL-03 (CC-26-0088) is still open; the
+  new guarded sight glass is expected in November.
+
+Please open the deviation. We suggest keeping the batch on hold until the
+particles are identified by QC (FTIR) and the sieve/charger interface is
+inspected. I have attached the packing records and the photo set to the
+deviation folder.
+
+Regards,
+Maria Lopez
+QA Officer — Metformin value chain

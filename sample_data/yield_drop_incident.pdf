@@ -1,0 +1,108 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2661 >>
+stream
+BT
+/F1 9.5 Tf
+13 TL
+50 770 Td
+(YIELD DEVIATION INVESTIGATION ? API MANUFACTURING) Tj T*
+() Tj T*
+(Deviation Reference: DEV-2026-127) Tj T*
+(Title: Crystallization yield below specification for Ibuprofen API) Tj T*
+(Product: Ibuprofen API) Tj T*
+(Batch: IBU-26-0033) Tj T*
+(Manufacturing Stage: Crystallization and centrifugal filtration) Tj T*
+(Equipment or Area: Crystallizer CR-12 and centrifuge CF-07) Tj T*
+(Incident Date: 2026-10-08) Tj T*
+(Reported By: Tomasz Nowak \(Production Supervisor\)) Tj T*
+(Severity Suggested: Major) Tj T*
+(Detected By: yield calculation during batch record review) Tj T*
+(Quantity Affected: 1 batch \(980 kg theoretical\)) Tj T*
+(Immediate Containment: Batch IBU-26-0033 placed on QA hold; no release until) Tj T*
+(the deviation is closed.) Tj T*
+() Tj T*
+(1. SUMMARY) Tj T*
+(The isolated yield of batch IBU-26-0033 after centrifugal filtration and drying) Tj T*
+(was 87.2 % against the registered yield range of 93.0 % - 97.0 % \(specification) Tj T*
+(SPEC-IBU-011\). The deviation was raised during batch record review before) Tj T*
+(release.) Tj T*
+() Tj T*
+(2. PROCESS AND RECORD REVIEW) Tj T*
+(The batch manufacturing record shows the heptane anti-solvent was charged in) Tj T*
+(20 minutes on 2026-10-08 between 14:05 and 14:25, against the SOP-PR-022 charge) Tj T*
+(time of 90 minutes. The crystal slurry was transferred to centrifuge CF-07 at) Tj T*
+(15:10. Mother liquor discharge volume recorded in the batch record was 1,240 L) Tj T*
+(against a typical 980 L. No in-process control result was out of specification;) Tj T*
+(the finished API met all quality attributes except yield.) Tj T*
+() Tj T*
+(3. DCS TREND REVIEW) Tj T*
+(The DCS trend for CF-07 on 2026-10-08 shows the centrifuge basket speed at) Tj T*
+(1,850 rpm during the whole filtration cycle, above the recipe setpoint of) Tj T*
+(1,200 rpm, and a wet cake thickness signal dropping sharply at 15:32. The) Tj T*
+(filtration cycle ended 11 minutes earlier than the typical cycle time.) Tj T*
+() Tj T*
+(4. MAINTENANCE RECORDS) Tj T*
+(Maintenance work order WO-26-4531 reports that the filter cloth on CF-07 was) Tj T*
+(found torn during post-batch inspection on 2026-10-08 at 17:50. The cloth was) Tj T*
+(replaced the same day. The preventive maintenance record shows the CF-07 cloth) Tj T*
+(inspection is scheduled monthly; the last recorded inspection was 2026-08-29.) Tj T*
+(Spare cloth lot CLO-26-19 is recorded in the spare parts issue log.) Tj T*
+() Tj T*
+(5. PERSONNEL) Tj T*
+(Operator interview \(2026-10-09, signed\): "we increased the basket speed to keep) Tj T*
+(the cycle time because the slurry was very fine; I did not check the recipe) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 636 >>
+stream
+BT
+/F1 9.5 Tf
+13 TL
+50 770 Td
+(limits". Training records show the operator was trained on SOP-PR-022 on) Tj T*
+(2026-03-18 and on centrifuge operation on 2026-03-20.) Tj T*
+() Tj T*
+(6. IMMEDIATE ACTIONS) Tj T*
+(- Batch IBU-26-0033 remains on QA hold for yield reconciliation.) Tj T*
+(- Basket speed alarm limits for CF-07 verified against the recipe on 2026-10-09.) Tj T*
+(- Filter cloth inspection after every batch until the deviation is closed.) Tj T*
+() Tj T*
+(Note: environmental monitoring data for Suite A on 2026-10-08 was within limits.) Tj T*
+(No supplier or raw material issue was identified in this investigation.) Tj T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000002966 00000 n 
+0000003092 00000 n 
+0000003779 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3849
+%%EOF

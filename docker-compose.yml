@@ -1,0 +1,27 @@
+# PostgreSQL for aivoa-rca (primary database).
+#
+# NOTE: host port defaults to 5434 because 5432 is used by a local PostgreSQL
+# service and 5433 by another container on this machine. If those are free in
+# your environment you can do: POSTGRES_PORT=5432 docker compose up
+# (and point DATABASE_URL at the same port).
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: aivoa-rca-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: aivoa
+      POSTGRES_PASSWORD: aivoa
+      POSTGRES_DB: aivoa_rca
+    ports:
+      - "${POSTGRES_PORT:-5434}:5432"
+    volumes:
+      - aivoa_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aivoa -d aivoa_rca"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  aivoa_pgdata:

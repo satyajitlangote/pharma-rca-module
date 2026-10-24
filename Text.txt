@@ -1,0 +1,24 @@
+DEVIATION NOTIFICATION
+
+Deviation No.: DEV-2026-0203
+Product: Omeprazole (API)
+Batch No.: OMP-26-0317
+Stage: Drying
+Equipment: Tray Dryer TD-12
+Date and time of occurrence: 20-Oct-2026, 22:10 hrs to 00:25 hrs (21-Oct-2026)
+Reported by: Sneha Kulkarni, QA Officer
+Detected by: Night shift operator during routine log review
+Proposed classification: Major
+
+Description:
+During vacuum drying of batch OMP-26-0317 in tray dryer TD-12, the vacuum pump VP-12 tripped at 22:10 hrs and remained off for approximately 135 minutes. The vacuum level dropped from 25 mbar to 410 mbar. The approved BMR requires vacuum of NMT 50 mbar throughout drying at 40 to 45 deg C. The dryer temperature stayed within 41 to 44 deg C during the event.
+
+After the vacuum pump was restarted at 00:25 hrs, drying continued as per BMR. The loss on drying (LOD) of the in-process sample taken at 06:00 hrs on 21-Oct-2026 was 1.9 percent against the limit of NMT 0.5 percent. Drying was extended by 6 hours and the sample was re-tested; the repeat result was 1.2 percent.
+
+Findings so far:
+- The pump trip alarm was logged on the dryer panel, but the operator did not escalate it to the supervisor until 00:15 hrs.
+- The last oil change of vacuum pump VP-12 was recorded as 02-Aug-2026. The maintenance schedule requires an oil change every 3 months. The maintenance record is not attached.
+- A power dip in the plant was mentioned verbally by a utility technician, but no utility log has been checked.
+- Batch quantity under drying: 285 kg.
+
+Immediate action: Batch OMP-26-0317 was placed on hold. Further drying is suspended until QA decision. 

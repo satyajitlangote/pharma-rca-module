@@ -1,0 +1,33 @@
+From: Amit Deshmukh <amit.deshmukh@examplepharma.com>
+To: QA Deviations <qa.deviations@examplepharma.com>
+Cc: Priya Joshi <priya.joshi@examplepharma.com>
+Date: Thu, 22 Oct 2026 09:15:00 +0530
+Subject: Deviation - Particle size OOS after milling, Telmisartan batch TLM-26-0155
+
+Dear QA Team,
+
+Please raise a deviation for the following event.
+
+Product: Telmisartan (API)
+Batch No.: TLM-26-0155
+Stage: Milling
+Equipment: Multi-mill MM-02
+Date of event: 21-Oct-2026 (milling carried out in the afternoon shift, 14:00 to 17:30 hrs)
+Quantity milled: 198 kg
+
+After milling, the particle size distribution result received from QC on 22-Oct-2026 at 08:30 hrs showed D90 of 82 microns against the specification of NMT 50 microns. The result is out of specification. The material is currently held in the quarantine area in double-lined drums.
+
+What we have found so far:
+1. The BMR specifies a 1.0 mm screen for MM-02. During the review this morning, the screen size installed in the mill was not recorded in the BMR. The operator says he used the screen that was already kept near the machine.
+2. Both a 1.0 mm and a 1.5 mm screen are stored in the same cabinet near MM-02. They are not separately labelled.
+3. The second-person verification column for screen fitting in the BMR is blank.
+4. The operator who milled this batch joined the milling area about three weeks ago. I have not checked his training record yet.
+5. The mill speed was recorded as 2800 rpm, which is within the BMR range.
+
+I have not yet looked at the line clearance checklist or the previous batch record for this mill. No photograph of the installed screen is available, since the mill was cleaned after the run.
+
+Immediate action taken: batch placed on hold, no further processing, retained sample sent to QC for re-testing.
+
+Regards,
+Amit Deshmukh
+Production Supervisor, API Block 2 
